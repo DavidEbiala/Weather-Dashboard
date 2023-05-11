@@ -16,6 +16,7 @@
                 Weather Dashboard
             </h1>
         </header>
+
         <div class="container-fluid text-center">
             <div class="row">
               <div class="col-4">
@@ -23,23 +24,39 @@
                     <b> Search for a city: 
                     </b>  
                 </h2>
-                <div class="input-group mb-3">
+                <div id= search-bar class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
-                    <button type="button" class="btn btn-primary">Search</button>
+                    <button id= search-btn type="button" class="btn btn-primary">Search</button>
                 </div>
                 Column
               </div>
+
               <div class="col-8">
-                Column
+                <div class="row">
+                  <div class="col">
+                    <div class="card  mb-3">
+                      <div class="card-body">
+                        <h5 id="location-name" class="card-title">Card title</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    Column
+                  </div>
+                  <div class="col-6">
+                    Column
+                  </div>
+                </div>
               </div>
             </div>
         </div>
           
 
-
-
-
-
+      
+      <script src= "script.js"></script>
     </body>
 
 </html>
